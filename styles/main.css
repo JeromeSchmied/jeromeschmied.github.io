@@ -1,0 +1,35 @@
+/* @import "gruvbox-dark.css"; */
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+:root {
+    --fg1: #c8c093;
+    --fg: #dcd7ba;
+    --bg: #090618;
+    --fonx: VT323, monospace;
+    --current-page: #957fb8;
+    --link: #7e9cd8;
+
+    box-sizing: border-box;
+
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--fonx);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fg);
+}
+
+.ascii {
+    align-self: center;
+    padding-top: 8%;
+    font-size: 25px;
+}
