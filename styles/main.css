@@ -9,7 +9,7 @@
     /* --current-page: #957fb8; */
     --link: #7e9cd8;
 
-    font-size: 21pt;
+    font-size: 2.4vw;
     box-sizing: border-box;
     background: var(--bg);
     color: var(--fg);
@@ -35,27 +35,31 @@ a {
     font-weight: bold;
     align-self: center;
     padding-top: 8%;
-    font-size: 25px;
+    font-size: 2.5vw;
 }
 
 h1 {
-    font-size: 28px;
-    padding-top: 40px;
+    font-size: 2.8vw;
+    padding-top: 6%;
 }
 
 h2 {
-    padding-top: 120px;
+    padding-top: 12.0vh;
 }
 
 .contact {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    font-size: 21pt;
+    font-size: 2.1vw;
     /* flex-direction: row; */
     /* align-self: center; */
     /* margin-left: auto; */
     /* margin-right: auto; */
     /* align-items: center; */
     /* align-content: center; */
+}
+
+.projects {
+    padding-bottom: 6%;
 }
