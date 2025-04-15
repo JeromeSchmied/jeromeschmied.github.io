@@ -27,7 +27,7 @@ h1 {
 	width: 24rem;
 	height: 16rem;
 	border-radius: 0.2rem;
-	border: 0.2rem solid var(--fg);
+	border: 0.2rem solid var(--bg);
 }
 .where a:link {
 	color: inherit;
@@ -38,5 +38,11 @@ h1 {
 	/* width: 40%; */
 	height: 14rem;
 	border-radius: 0.2rem;
-	border: 0.2rem solid var(--fg);
+	border: 0.2rem solid var(--bg);
+	margin-bottom: 2rem;
+}
+
+footer {
+	font-size: 0.6rem;
+	text-align: center;
 }
