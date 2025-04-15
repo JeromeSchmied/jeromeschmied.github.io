@@ -1,1 +1,42 @@
+:root {
+	/* background-color: whitesmoke; */
 
+	color-scheme: light dark;
+
+	/* --fg1: #c8c093; */
+	--bg: #dcd7ba;
+	--fg: #090618;
+	--fonx: system-ui, -apple-system, sans-serif;
+	/* --current-page: #957fb8; */
+	--link: #7e9cd8;
+
+	font-size: 2.0rem;
+	box-sizing: border-box;
+	background: light-dark(var(--bg), var(--fg));
+	color: light-dark(var(--fg), var(--bg));
+	font-family: var(--fonx);
+}
+
+h1 {
+	font-weight: 900;
+	text-align: center;
+}
+
+.where iframe {
+	/* width: 40%; */
+	width: 24rem;
+	height: 16rem;
+	border-radius: 0.2rem;
+	border: 0.2rem solid var(--fg);
+}
+.where a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.premier video {
+	/* width: 40%; */
+	height: 14rem;
+	border-radius: 0.2rem;
+	border: 0.2rem solid var(--fg);
+}
