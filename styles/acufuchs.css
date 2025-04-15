@@ -9,6 +9,8 @@
 	--fonx: system-ui, -apple-system, sans-serif;
 	/* --current-page: #957fb8; */
 	--link: #7e9cd8;
+	--background: light-dark(var(--bg), var(--fg));
+	--foreground: light-dark(var(--fg), var(--bg));
 
 	font-size: 2.0rem;
 	box-sizing: border-box;
@@ -22,12 +24,19 @@ h1 {
 	text-align: center;
 }
 
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
 .where iframe {
 	/* width: 40%; */
 	width: 24rem;
 	height: 16rem;
 	border-radius: 0.2rem;
-	border: 0.2rem solid var(--bg);
+	border: 0.2rem solid var(--foreground);
 }
 .where a:link {
 	color: inherit;
@@ -38,7 +47,12 @@ h1 {
 	/* width: 40%; */
 	height: 14rem;
 	border-radius: 0.2rem;
-	border: 0.2rem solid var(--bg);
+	border: 0.2rem solid var(--foreground);
+}
+
+.disclaimer p,
+.disclaimer strong {
+	font-size: 0.7rem;
 	margin-bottom: 2rem;
 }
 
