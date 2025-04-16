@@ -4,7 +4,21 @@
     <meta charset="utf-8">
     <meta name="author" content="Jeromos Kovács">
     <title>ACU Fuchs</title>
-    <link rel="icon" type="image/x-icon" href="assets/acufuchs-logos/circle-white.png">
+    <link rel="icon" type="image/x-icon" id="favicon" href="assets/acufuchs-logos/circle-black.png">
+    <script>
+      function setFavicon() {
+            const favicon = document.getElementById("favicon");
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                favicon.href = "assets/acufuchs-logos/circle-white.png";
+            } else {
+                favicon.href = "assets/acufuchs-logos/circle-black.png";
+            }
+        }
+        // Set favicon on page load
+        setFavicon();
+        // Listen for changes in preferred color scheme
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setFavicon);
+    </script>
     <meta name="description" content="ACU Fuchs">
     <link rel="stylesheet" type="text/css" href="styles/acufuchs.css">
   </head>
