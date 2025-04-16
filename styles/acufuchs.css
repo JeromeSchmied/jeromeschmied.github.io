@@ -1,28 +1,26 @@
 :root {
-	/* background-color: whitesmoke; */
-
 	color-scheme: light dark;
 
 	/* --fg1: #c8c093; */
-	--bg: #dcd7ba;
-	--fg: #090618;
+	--wbg: #dcd7ba;
+	--wfg: #090618;
 	--fonx: system-ui, -apple-system, sans-serif;
 	/* --current-page: #957fb8; */
 	--link: #7e9cd8;
-	--background: light-dark(var(--bg), var(--fg));
-	--foreground: light-dark(var(--fg), var(--bg));
+	--background: light-dark(var(--wbg), var(--wfg));
+	--foreground: light-dark(var(--wfg), var(--wbg));
 
 	font-size: 2.0rem;
 	box-sizing: border-box;
-	background: light-dark(var(--bg), var(--fg));
-	color: light-dark(var(--fg), var(--bg));
+	background-color: var(--background);
+	color: var(--foreground);
 	font-family: var(--fonx);
 }
 
-h1 {
+/* h1 {
 	font-weight: 900;
 	text-align: center;
-}
+} */
 
 #logo {
 	display: block;
