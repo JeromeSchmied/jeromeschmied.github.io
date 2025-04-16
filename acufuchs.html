@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <meta name="author" content="Jeromos Kovács">
     <title>ACU Fuchs</title>
-    <link rel="icon" type="image/x-icon" id="favicon" href="assets/acufuchs-logos/circle-black.png">
+    <link rel="icon" type="image/png" href="assets/acufuchs-logos/circle-black.png">
+    <link rel="icon" type="image/svg+xml" id="favicon" href="assets/acufuchs-logos/circle-black.svg">
+    <link rel="apple-touch-icon" href="assets/acufuchs-logos/circle-black.svg">
     <script>
       function setFavicon() {
             const favicon = document.getElementById("favicon");
             if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-                favicon.href = "assets/acufuchs-logos/circle-white.png";
+                favicon.href = "assets/acufuchs-logos/circle-white.svg";
             } else {
-                favicon.href = "assets/acufuchs-logos/circle-black.png";
+                favicon.href = "assets/acufuchs-logos/circle-black.svg";
             }
         }
         // Set favicon on page load
