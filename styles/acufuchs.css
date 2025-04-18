@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 :root {
 	color-scheme: light dark;
 
 	/* --fg1: #c8c093; */
 	--wbg: #dcd7ba;
 	--wfg: #090618;
-	--fonx: system-ui, -apple-system, sans-serif;
+	/* --fonx: system-ui, -apple-system, sans-serif; */
+	--fonx: "Averia Serif Libre", serif;
 	/* --current-page: #957fb8; */
 	--link: #7e9cd8;
 	--background: light-dark(var(--wbg), var(--wfg));
