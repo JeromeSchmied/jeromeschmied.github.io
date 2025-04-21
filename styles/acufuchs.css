@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 :root {
-	color-scheme: light dark;
-
-	/* --fg1: #c8c093; */
 	--wbg: white;
 	--wfg: black;
-	/* --fonx: system-ui, -apple-system, sans-serif; */
 	--fonx: "Averia Serif Libre", serif;
-	/* --current-page: #957fb8; */
 	--link: #7e9cd8;
-	--background: light-dark(var(--wbg), var(--wfg));
-	--foreground: light-dark(var(--wfg), var(--wbg));
+	--background: var(--wbg);
+	--foreground: var(--wfg);
+}
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: var(--wfg);
+		--foreground: var(--wbg);
+	}
+}
+
+:root {
 	font-size: 3.0vw;
 	/* font-size: */ 
 	box-sizing: border-box;
@@ -20,11 +24,6 @@
 	color: var(--foreground);
 	font-family: var(--fonx);
 }
-
-/* h1 {
-	font-weight: 900;
-	text-align: center;
-} */
 
 h2 {
 	margin: 0;
