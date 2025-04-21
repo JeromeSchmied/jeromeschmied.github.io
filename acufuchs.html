@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Jeromos Kovács">
-  <title>ACU Fuchs</title>
-  <link rel="icon" type="image/png" href="assets/acufuchs-logos/circle-black.png">
-  <link rel="icon" type="image/svg+xml" id="favicon" href="assets/acufuchs-logos/circle-black.svg">
-  <link rel="apple-touch-icon" href="assets/acufuchs-logos/circle-black.svg">
-  <script>
-    function setFavicon() {
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jeromos Kovács">
+    <title>ACU Fuchs</title>
+    <link rel="icon" type="image/png" href="assets/acufuchs-logos/circle-black.png">
+    <link rel="icon" type="image/svg+xml" id="favicon" href="assets/acufuchs-logos/circle-black.svg">
+    <link rel="apple-touch-icon" href="assets/acufuchs-logos/circle-black.svg">
+    <script>
+      function setFavicon() {
       const favicon = document.getElementById("favicon");
       if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
         favicon.href = "assets/acufuchs-logos/circle-white.svg";
@@ -21,71 +20,71 @@
     setFavicon();
     // Listen for changes in preferred color scheme
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setFavicon);
-  </script>
-  <meta name="description" content="ACU Fuchs">
-  <link rel="stylesheet" type="text/css" href="styles/acufuchs.css">
-</head>
-
-<body>
-  <!-- <h1>ACU Fuchs</h1> -->
-  <picture>
-    <source srcset="assets/acufuchs-logos/rect-white.svg" media="(prefers-color-scheme: dark)">
-    <img id="logo" class="centered" src="assets/acufuchs-logos/rect-black.svg" alt="macho ACU Fuchs logo">
-  </picture>
-  <div class="where">
-    <h2>where</h2>
-    <a href="https://www.openstreetmap.org/?mlat=48.2445&amp;mlon=16.3904#map=12/48.2445/16.3904">
-      <h3>Danube Island, Northern Railway Bridge, Vienna</h3>
-    </a>
-    <iframe class="centered"
-      src="https://www.openstreetmap.org/export/embed.html?bbox=16.189041137695316%2C48.154176701412744%2C16.591758728027347%2C48.334571409108214&amp;layer=mapnik&amp;marker=48.24445358418019%2C16.390399932861328"></iframe>
-  </div>
-  <div class="when">
-    <h2>when</h2>
-    <p>always around the first weekend of june,<br>
-      <strong>2025. jun. 14. evening</strong>
-    </p>
-  </div>
-  <div class="how">
-    <h2>how</h2>
-    <p>to apply</p>
-    <ol>
-      <li>
-        <a href="https://www.instagram.com/acufuchs/?utm_source=ig_web_button_share_sheet">follow us on instagram</a>
-      </li>
-      <li>
-        <a href="https://cryptpad.fr/form/#/2/form/view/L6y8PievX7gutJHfWxp7D9GLCSZx6Ey7tzUln3jmXZQ/embed/">
-          <strong>fill out this form</strong>
-        </a>
-      </li>
-    </ol>
-  </div>
-  <div class="who">
-    <h2>who</h2>
-    <ul>
-      <li>you?</li>
-      <li>your friends?</li>
-    </ul>
-  </div>
-  <div class="what">
-    <h2>what</h2>
-    <p>nocturnal folding bike crit race (like Brompton, but more rad)</p>
-    <div class="premier">
-      <h2>premier</h2>
-      <video class="centered" controls poster="assets/thumbnail.jpg">
-        <source src="assets/ACU_Fuchs.webm" type="video/webm">
-      </video>
+    </script>
+    <meta name="description" content="ACU Fuchs">
+    <link rel="stylesheet" type="text/css" href="styles/acufuchs.css">
+  </head>
+  <body>
+    <!-- <h1>ACU Fuchs</h1> -->
+    <div class="logo">
+      <picture>
+        <source srcset="assets/acufuchs-logos/rect-white.svg" media="(prefers-color-scheme: dark)">
+        <img id="logo" class="centered" src="assets/acufuchs-logos/rect-black.svg" alt="macho ACU Fuchs logo">
+      </picture>
     </div>
-    <div class="disclaimer">
-      <p><strong><i>disclaimer</i></strong><br>
-        the bikes used in this video were experimental</p>
+    <div class="where">
+      <h2>where</h2>
+      <a href="https://www.openstreetmap.org/?mlat=48.2445&amp;mlon=16.3904#map=12/48.2445/16.3904">
+        <h3>Danube Island, Northern Railway Bridge, Vienna</h3>
+      </a>
+      <iframe class="centered" src="https://www.openstreetmap.org/export/embed.html?bbox=16.189041137695316%2C48.154176701412744%2C16.591758728027347%2C48.334571409108214&amp;layer=mapnik&amp;marker=48.24445358418019%2C16.390399932861328"></iframe>
     </div>
-  </div>
-  <hr>
-  <footer>contact us via
-    <a href="mailto:acufuchs@gmail.com">email</a>, or
-    <a href="https://github.com/jeromeschmied/jeromeschmied.github.io/issues/new">open a GitHub issue</a>
-  </footer>
-</body>
-
+    <div class="when">
+      <h2>when</h2>
+      <p>always around the first weekend of june,<br>
+        <strong>2025. jun. 14. evening</strong></p>
+    </div>
+    <div class="how">
+      <h2>how</h2>
+      <p>to apply</p>
+      <ol>
+        <li>
+          <a href="https://app.formbricks.com/s/cm9pw8oibfd1yw201b08kx0o3">
+            <strong>fill out this form</strong>
+          </a>
+        </li>
+        <li>
+          <a href="assets/ACU_Fuchs.ics">add date to your calendar</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/acufuchs/?utm_source=ig_web_button_share_sheet">follow us on instagram</a>
+        </li>
+      </ol>
+    </div>
+    <div class="who">
+      <h2>who</h2>
+      <ul>
+        <li>you?</li>
+        <li>your friends?</li>
+      </ul>
+    </div>
+    <div class="what">
+      <h2>what</h2>
+      <p>nocturnal folding bike crit race (like Brompton, but more rad)</p>
+      <div class="premier">
+        <h2>premier</h2>
+        <video class="centered" controls poster="assets/thumbnail.jpg">
+          <source src="assets/ACU_Fuchs.webm" type="video/webm">
+        </video>
+      </div>
+      <div class="disclaimer">
+        <p><strong><i>disclaimer</i></strong><br>
+          the bikes used in this video were experimental</p>
+      </div>
+    </div>
+    <hr>
+    <footer>contact us via
+      <a href="mailto:acufuchs@gmail.com">email</a>, or
+      <a href="https://github.com/jeromeschmied/jeromeschmied.github.io/issues/new">open a GitHub issue</a></footer>
+  </body>
 </html>
