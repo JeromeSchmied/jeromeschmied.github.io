@@ -1,26 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 :root {
-	color-scheme: light dark;
+	--wbg: white;
+	--wfg: black;
+	--fonx: "Averia Serif Libre", serif;
+	--background: var(--wbg);
+	--foreground: var(--wfg);
+}
 
-	/* --fg1: #c8c093; */
-	--wbg: #dcd7ba;
-	--wfg: #090618;
-	--fonx: system-ui, -apple-system, sans-serif;
-	/* --current-page: #957fb8; */
-	--link: #7e9cd8;
-	--background: light-dark(var(--wbg), var(--wfg));
-	--foreground: light-dark(var(--wfg), var(--wbg));
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: var(--wfg);
+		--foreground: var(--wbg);
+	}
+}
 
-	font-size: 2.0rem;
+:root {
+	font-size: 3.0vw;
 	box-sizing: border-box;
 	background-color: var(--background);
 	color: var(--foreground);
 	font-family: var(--fonx);
 }
 
-/* h1 {
-	font-weight: 900;
-	text-align: center;
-} */
+h2 {
+	margin: 0;
+	padding-top: 4%;
+	font-size: 1.5rem;
+	/* padding-bottom: 4%; */
+}
 
 .centered {
 	display: block;
@@ -28,8 +36,20 @@
 	margin-right: auto;
 }
 
-#logo {
-	width: 40%;
+.box {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.logo {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	/* background-color: #C45BAA; */
+}
+
+.logo img {
+	width: 64%;
 }
 
 .where iframe {
@@ -37,11 +57,6 @@
 	height: 16rem;
 	border-radius: 0.2rem;
 	border: 0.2rem solid var(--foreground);
-}
-
-.where a:link {
-	color: inherit;
-	text-decoration: none;
 }
 
 .premier video {
