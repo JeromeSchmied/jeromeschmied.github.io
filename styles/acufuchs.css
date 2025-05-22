@@ -67,7 +67,7 @@ h2 {
 .logo {
 	/* padding-top: 4%; */
 	justify-content: space-around;
-	align-items: end;
+	align-items: flex-end;
 	/* height: 400%; */
 	padding-left: 0;
 	background-size: cover;
@@ -114,33 +114,41 @@ h2 {
 }
 
 .about {
-	/* flex-direction: column; */
+	flex-direction: column;
 	/* padding-left: 0; */
-	padding-top: 2%;
-	align-items: center;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	aspect-ratio: auto;
+	/* align-items: center; */
+	align-items: flex-start;
 	justify-content: space-between;
 	background-image: url("../assets/bg-imgs/vacsi-color.jpg");
 }
 
 .bober {
-	/* display: flex; */
+	display: flex;
+	justify-content: space-between;
 	padding: 0;
 	margin: 0;
-	width: 50%;
+	width: 90%;
+	align-items: start;
 	/* flex-direction: column; */
-}
-
-.bober p {
-	font-size: 0.8rem;
 }
 
 video {
 	/* width: 68%; */
-	width: 40%;
+	width: 45%;
 	aspect-ratio: 16/9;
-	margin-right: 8%;
+	/* margin-right: 8%; */
+	margin-left: auto;
 	border-radius: 0.2rem;
 	border: 0.12rem solid var(--wfg);
+}
+
+#pathos {
+	width: 90%;
+	font-size: 0.94rem;
+	margin-top: 8%;
 }
 
 .logo img {
