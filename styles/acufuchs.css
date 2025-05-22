@@ -103,7 +103,7 @@ h2 {
 .how {
 	flex-direction: column;
 	/* background-color: #0B3C49; */
-	background-image: url("../assets/bg-imgs/apokalyps-color.png");
+	background-image: url("../assets/bg-imgs/apokalyps-color.jpg");
 }
 
 .how #apply {
@@ -114,15 +114,33 @@ h2 {
 }
 
 .about {
-	flex-direction: column;
-	background-image: url("../assets/bg-imgs/vacsi-color.png");
+	/* flex-direction: column; */
+	/* padding-left: 0; */
+	padding-top: 2%;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url("../assets/bg-imgs/vacsi-color.jpg");
 }
 
 .bober {
-	display: flex;
+	/* display: flex; */
 	padding: 0;
 	margin: 0;
+	width: 50%;
 	/* flex-direction: column; */
+}
+
+.bober p {
+	font-size: 0.8rem;
+}
+
+video {
+	/* width: 68%; */
+	width: 40%;
+	aspect-ratio: 16/9;
+	margin-right: 8%;
+	border-radius: 0.2rem;
+	border: 0.12rem solid var(--wfg);
 }
 
 .logo img {
@@ -139,12 +157,6 @@ h2 {
 	border: 0.12rem solid var(--wfg);
 }
 
-.premier video {
-	width: 68%;
-	border-radius: 0.2rem;
-	border: 0.12rem solid var(--wfg);
-}
-
 .disclaimer {
 	padding-left: 4%;
 }
@@ -156,9 +168,13 @@ h2 {
 }
 
 footer {
-	background-color: dodgerblue;
-	padding-top: 6%;
-	padding-bottom: 6%;
+	/* background-color: dodgerblue; */
+	background-image: url("../assets/bg-imgs/theravisier.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	aspect-ratio: 16 / 2.4;
 	font-size: 0.6rem;
 	text-align: center;
 }

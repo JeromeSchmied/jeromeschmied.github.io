@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Jeromos Kovács">
+    <meta http-equiv="Cache-Control" content="no-cache">
     <title>ACU Fuchs</title>
     <link rel="icon" type="image/png" href="assets/acufuchs-logos/circle-black.png">
     <link rel="icon" type="image/svg+xml" id="favicon" href="assets/acufuchs-logos/circle-black.svg">
@@ -22,12 +23,20 @@
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setFavicon);
     </script>
     <meta name="description" content="ACU Fuchs">
+    <link id="main-css" rel="stylesheet" type="text/css" href="styles/acufuchs.css">
+    <script>
+      window.onload = function() {
+            const cssLink = document.getElementById('main-css');
+            const now = new Date().getTime();
+            cssLink.href = "styles/acufuchs.css?" + now;
+        };
+    </script>
   </head>
   <body>
     <!-- <h1>ACU Fuchs</h1> -->
     <div class="logo section">
       <picture>
-        <source srcset="assets/acufuchs-logos/rect-white-black_bg.svg" media="(prefers-color-scheme: dark)">
+        <source srcset="assets/acufuchs-logos/rect-white.svg" media="(prefers-color-scheme: dark)">
         <img id="logo" src="assets/acufuchs-logos/rect-black-white_bg.svg" alt="macho ACU Fuchs logo">
       </picture>
     </div>
@@ -58,17 +67,13 @@
       </div>
     </div>
     <div class="about section">
-      <h2>about us</h2>
       <div class="bober">
-        <div class="what">
-          <p>nocturnal folding bike crit race (like Brompton, but more rad)</p>
-        </div>
-        <div class="premier">
-          <video controls poster="assets/thumbnail.jpg">
-            <source src="assets/ACU_Fuchs.webm" type="video/webm">
-          </video>
-        </div>
+        <h2>about us</h2>
+        <p>nocturnal folding bike crit race (like Brompton, but more rad)</p>
       </div>
+      <video controls poster="assets/thumbnail.jpg">
+        <source src="assets/ACU_Fuchs.webm" type="video/webm">
+      </video>
     </div>
     <!-- <hr> -->
     <footer><p class="centered">contact us via
