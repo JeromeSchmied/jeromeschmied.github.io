@@ -13,6 +13,14 @@
 		--background: var(--wfg);
 		--foreground: var(--wbg);
 	}
+
+	a:visited {
+		color: fuchsia;
+	}
+
+	a {
+		color: cornflowerblue;
+	}
 }
 
 :root {
