@@ -192,8 +192,9 @@ video {
 	flex-direction: column;
 	/* align-items: center; */
 	padding-right: 8%;
-	background-image: url("../assets/bg-imgs/rhino-hq.png");
+	background-image: url("../assets/bg-imgs/rhino-hq.jpg");
 }
+
 .sponsors h2 {
 	margin-bottom: 4%;
 }
@@ -203,12 +204,12 @@ video {
 	height: 100%;
 	box-sizing: border-box;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .sponsors img {
 	/* width: 40%; */
-	height: 76%;
+	height: 72%;
 }
 
 footer {
