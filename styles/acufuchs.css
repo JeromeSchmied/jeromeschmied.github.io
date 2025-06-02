@@ -131,6 +131,30 @@ h2 {
 	/* justify-content: space-around; */
 }
 
+.tncs {
+	padding-right: 8%;
+	padding-bottom: 2%;
+	font-size: 0.8rem;
+	flex-direction: column;
+	background-image: url("../assets/bg-imgs/szentirma.webp");
+}
+
+ol {
+	counter-reset: item;
+	padding-inline-start: 4%;
+}
+
+ol li {
+	display: block;
+	margin-bottom: 2%;
+}
+
+ol li:before {
+	content: counter(item) ". ";
+	counter-increment: item;
+	/* color: red; */
+}
+
 .about {
 	flex-direction: column;
 	/* padding-left: 0; */
