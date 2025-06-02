@@ -78,23 +78,29 @@ h2 {
 
 .logo {
 	/* padding-top: 4%; */
-	justify-content: space-around;
+	width: 100%;
+	display: block;
+	justify-content: center;
 	align-items: flex-end;
 	/* height: 400%; */
 	padding-left: 0;
-	background-size: cover;
-	background-image: url("../assets/bg-imgs/nyuszik-color.jpg");
+	background-image: url("../assets/bg-imgs/nyuszik.webp");
 	/* background-color: #330036; */
+}
+
+.logo img {
+	padding-top: 15%;
+	width: 50%;
 }
 
 .where {
 	/* background-color: #56EEF4; */
-	/* background-image: url("../duerer-color.jpg"); */
+	/* background-image: url("../duerer-color.webp"); */
 	padding-left: 4%;
 	padding-right: 4%;
 	justify-content: space-evenly;
 	align-items: center;
-	background-image: url("../assets/bg-imgs/nyamikonyv-color.jpg");
+	background-image: url("../assets/bg-imgs/nyamikonyv.webp");
 }
 
 .where #text {
@@ -105,7 +111,7 @@ h2 {
 .when {
 	flex-direction: column;
 	/* background-color: #731963; */
-	background-image: url("../assets/bg-imgs/dinosaurgrr-color.jpg");
+	background-image: url("../assets/bg-imgs/dinosaurgrr.webp");
 }
 
 .when p {
@@ -115,7 +121,7 @@ h2 {
 .how {
 	flex-direction: column;
 	/* background-color: #0B3C49; */
-	background-image: url("../assets/bg-imgs/apokalyps-color.jpg");
+	background-image: url("../assets/bg-imgs/apokalyps.webp");
 }
 
 .how #apply {
@@ -134,7 +140,7 @@ h2 {
 	/* align-items: center; */
 	align-items: flex-start;
 	justify-content: space-between;
-	background-image: url("../assets/bg-imgs/vacsi-color.jpg");
+	background-image: url("../assets/bg-imgs/vacsi.webp");
 }
 
 .bober {
@@ -163,10 +169,6 @@ video {
 	margin-top: 8%;
 }
 
-.logo img {
-	width: 100%;
-}
-
 .where iframe {
 	width: 60%;
 	/* height: 90%; */
@@ -189,12 +191,12 @@ video {
 
 footer {
 	/* background-color: dodgerblue; */
-	background-image: url("../assets/bg-imgs/theravisier.jpg");
+	background-image: url("../assets/bg-imgs/theravisier.webp");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	aspect-ratio: 16 / 2.4;
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 	text-align: center;
 }
