@@ -133,8 +133,9 @@ h2 {
 
 .tncs {
 	padding-right: 8%;
+	padding-left: 7%;
 	padding-bottom: 2%;
-	font-size: 0.8rem;
+	font-size: 0.75rem;
 	flex-direction: column;
 	background-image: url("../assets/bg-imgs/szentirma.webp");
 }
@@ -189,7 +190,7 @@ video {
 
 #pathos {
 	width: 90%;
-	font-size: 0.94rem;
+	font-size: 0.9rem;
 	margin-top: 8%;
 }
 
